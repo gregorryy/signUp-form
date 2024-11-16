@@ -1,0 +1,37 @@
+@font-face {
+  font-family: "Nunito";
+  src: url("Nunito-VariableFont_wght.ttf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.left_side {
+  float: left;
+  width: 30%;
+  height: 912px;
+  background-color: #ffffff;
+  background-image: url("background.jpg");
+}
+.right_side {
+  float: right;
+  width: 70%;
+  height: 100%;
+  background-color: #f1f1f1;
+}
+
+.presentation {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  padding: 0px;
+  margin: 0px;
+  background-color: rgb(0, 0, 0, 0.5);
+  height: 100%;
+  font-size: 20px;
+  font-family: "Nunito";
+}
